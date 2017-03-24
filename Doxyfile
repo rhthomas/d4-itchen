@@ -1,0 +1,28 @@
+# project information
+PROJECT_NAME           = "ITCHEN"
+PROJECT_BRIEF          = "Invention for Transporting Cargo using Helicopter \
+                         Engineering kNowhow"
+
+# folder to store output
+OUTPUT_DIRECTORY       = doxygen
+
+# access to files
+INPUT                  = ../README.md ./
+USE_MDFILE_AS_MAINPAGE = ../README.md
+FILE_PATTERNS          = *.c *.cpp *.h *.hpp *.ino *.py
+EXTENSION_MAPPING      = ino=c
+RECURSIVE              = YES
+IMAGE_PATH             = ./images/ ../schematic/
+
+# extraction parameters
+EXTRACT_ALL            = NO
+EXTRACT_PRIVATE        = YES
+HIDE_UNDOC_MEMBERS     = YES
+
+# generate class diagrams
+CLASS_DIAGRAMS         = YES
+HIDE_UNDOC_RELATIONS   = NO
+HAVE_DOT               = YES
+CLASS_GRAPH            = YES
+COLLABORATION_GRAPH    = YES
+UML_LOOK               = YES
