@@ -101,12 +101,12 @@ void setup()
 			Serial.println("Setting up radio");
 		#endif
 
-        radio.Initialize(NODEID, RF12_433MHZ, NETWORKID);
+        	radio.Initialize(NODEID, RF12_433MHZ, NETWORKID);
 
-        #ifdef SERIAL_USB_ACTIVE
-        	Serial.println("Radio set up");
-        #endif
-    #endif
+		#ifdef SERIAL_USB_ACTIVE
+			Serial.println("Radio set up");
+		#endif
+	#endif
 
 	#ifdef RADIO_TEST
 		#ifndef USE_RADIO
