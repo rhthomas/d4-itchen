@@ -17,7 +17,7 @@ of 1kg. This exercise was a competition between ourselves and 9 other groups, of
 which we placed **1st**!
 
 The documentation for the final product can be found at
-[https://rhthomas.github.io/itchen](https://rhthomas.github.io/itchen).
+[https://rhthomas.github.io/docs/itchen](https://rhthomas.github.io/docs/itchen).
 
 ![block-dia](images/block-dia.png)
 
